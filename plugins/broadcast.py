@@ -194,7 +194,7 @@ async def forw(event):
 
 
 @ultroid_cmd(
-    pattern="gcast ?(.*)",
+    pattern="broadcast ?(.*)",
     allow_sudo=False,
 )
 async def sending(event):
